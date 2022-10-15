@@ -1,0 +1,203 @@
+body{
+    color: #40514E;
+    margin: 0; /* ya kar na se phela dekh na I'm anup se phela ek space a raha ha tha to humlog chate ha ke 
+    wo space na aye to humlog ko margin ka use kar na ho ga margin defult kuch set rahe ta ha crome se to humlog
+    jub margin 0 kar diye to iska mtlub ha ke humlog ko I'm anup ka bd space nhi chaiye iska liye humlog margin
+    use kar ta ha agar dekh na ha ke mergin 0 set kar na se phela kaise dikh ta tha webpage mera and mergin 0 set
+    kar na ka bd kaise dekh ta ha*/
+
+    text-align: center;/* ya tag use kar na se ho ga ke body ka under jitna v image aur text ho ga wo sub mid me
+    a jaye ga humlog sefiy v kar skte ha ke humlog kon parent ka text and image ko center me lana ha jise
+    ya par humlog ko body ka text and image ko center me lana ha to a jaye ga agar mnlo humlog ek pragraph ko
+    center me lana ha to wha par ya tag ko use kar ga and ek aur important baat agar body ka under jitna v element
+    ha agar humlog text-align tag ka use kar ga to har element center me a jaye ga and jo element ka wight
+    set ha wo center me nhi aye ga*/
+    
+     /*font-family: cursive,sans-serif; /*humlog font choose kar rahe ke mera intire page me jo text ho ga wo kaise
+    ho ga  let say ek type ho ta ha jo ha sans-serf and humlog chate ha ke sans-serif me v cursive ho to phela
+    cursive likho and phir text ka type jo yha par ha sans-serif*/
+
+    font-family: 'Merriweather', serif;
+    
+
+
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: royalblue;
+    border-width: 5px;
+    width: 5%;
+    margin: 100px auto;
+
+}
+
+a{
+    color: brown;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px; /*10px for top and bottom and 20px for left and right*/
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+
+h1{
+    margin: auto;
+    /* abhi ka liye humlog ya comment out kar da rahe ha  */
+    /*width: 10%; and jo element ka wigth set ha usko center kar na ka liye humlog ya mergin wala tarika use kar ga*/
+
+   /* margin: 0 auto 0 auto; there is another way to center the element using margin so there is value called
+    auto which center the element either virtical or horizantal if we looking for horizantal center the element
+    we can set margin top 0 and  mergin right auto and mergin botam 0 and mergin left auto */
+    font-family: 'Comforter', cursive;
+
+    /*font-size: 90px;/* this the way of static font size if the user has the screen size large then this not effect
+    my font size*/
+
+    /* this the way to creat a dynamic font size this will change according to user page size abhi ka liye humlog
+    ya wala method use kar ga na ke static font size wala */
+    font-size: 5.625rem;
+    padding: 50px;/* padding gives space from the top */
+
+    /* color: #66BFBF; */
+    color: black;
+    /*line-height: 2;/* this tag is used to give space between the tow line yha par hum h1 and h2 ka biche me space
+    diye ha par isko abhi comment kar denge kuki hum nhi chate ha ke mera h1 and h2 ka bich me space aye
+    bs janlo ke kiya kar ta ha ya tag*/
+    
+    
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+
+
+    font-size: 2.5rem;
+    margin: auto;
+    color: #66BFBF;
+    font-weight: normal; /*this tag is used for reduse the bold of what ever inside the h2 tag*/
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+ 
+p{
+    line-height: 2; /*humlog chate ha ke humlog ka intire webpage me ek line and dusra line ka biche me space ho */
+}
+.top-container{
+    background-color: #CBF1F5;
+    position: relative; /* humlog chate ke humlog ka cloud sub ka mergin pura screen ho to uske liye humlog parent
+    class ka positon relative kar na ho ga uske kiye ho ga dono cloud ka mergin pura screen ha and agar humlog
+    dekhe to dono cloud ka parent kon ha jo ha top container*/
+    padding-top: 100px;
+    
+}
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+   background-color: #66BFBF;
+   padding: 50px 0 20px; /*50 px to top and 0 px to right and left and 20px to bottom*/
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+
+/* .pro{
+    /* abhi ka liye hum comment out kar da rahe ha kuki hum nhi chate ha under line */
+   /* text-decoration: underline;/* text-decoration ka mtlub ho ta ke ke jo text ha uska sath liye kar na ha kiye 
+    usko colour kar na ha kiye usko underline kar na islye humlog text-decoration use kar rahe ha*/
+/*} */ 
+
+.intro{
+    width: 30%;
+    margin: auto ;
+}
+
+.contact-msg  {
+    width: 40%;
+    margin: 40px auto 60px; /*40px for top and auto for left and right and 60px for bottom*/
+    
+}
+
+.finle-time{
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.top-cloud{
+    position:absolute;
+    right: 300px;
+    top: 40px;
+
+}
+
+.bottom-cloud{ /* humlog cloud ko center islye kiye kuki humlog ka mountain center me nhi a rahe ha and cloud
+    mountain ka bagal me tha jo throa add lag rahe ha tha and ab mountain middle me a gye*/
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.anup{ /* humko size kam kar na tha islye ya anup class ka use kiye*/
+    width: 400px;
+    height: auto;
+}
+
+.code-img{
+    width: 25%;
+    float: left; /*this tag is used for agar let say mera image ha uska bd space and hum chate ha ke mera text
+    image ka bagal me likha jaye to humlog ya tag ka use kar ta ha */
+    margin-right: 30px;
+}
+.chilly-img{
+    width: 25%;
+    float: right; /*this tag is used for agar let say mera image ha uska bd space and hum chate ha ke mera text
+    image ka bagal me likha jaye to humlog ya tag ka use kar ta ha */
+    margin-right: 30px;
+}
+
+/* par hum comment out kar denge kuki humlog ya tag ka baare me bata na tha and ya class sub delete kar diye ha
+html wala file se agar use kar na ho ga to class phir se bana lena  
+.code-skill-description{
+    clear: left; /*clear tag is used for agar let say mera hedding he image ka bagal me rahe ga bakin ka text
+    image ka niche rahe ga uska liye humlog clear ka use kar ta ha 
+}
+.code-skil-deo{
+    clear: right;
+}
+*/
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
